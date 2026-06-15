@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next
+/out
+
+# env & secrets — never commit these
+.env
+.env.local
+.env*.local
+
+# access store (client data, backups, CRM imports) — keep all of it local
+/data/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# local editor/agent settings
+.claude/settings.local.json
+
+# separate embedded project (its own repo / GitHub Pages site)
+/cloudx-experience/

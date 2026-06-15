@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "joebryant-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "cloudx-experience",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "cloudx-experience", "-l", "4321"],
+      "port": 4321
+    }
+  ]
+}
